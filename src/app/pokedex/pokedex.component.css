@@ -1,0 +1,33 @@
+.pokedex {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.pokedex__list {
+  --grid-columns: 4;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  gap: 4rem 1rem;
+}
+
+.pokedex__load-more {
+  font-weight: 600;
+
+  display: flex;
+  margin-top: 4rem;
+  margin-inline: auto;
+  padding: 0.75rem 1.5rem;
+
+  background-color: #ff5350;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition: opacity 0.2s ease-in-out;
+}
+
+.pokedex__load-more:hover {
+  opacity: 0.8;
+}

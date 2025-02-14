@@ -1,0 +1,112 @@
+.card {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 10px;
+
+  width: 100%;
+  padding: 1rem 2rem;
+
+  box-shadow: -3px 13px 26px -51px rgba(211, 213, 242, 0.75);
+  -webkit-box-shadow: -3px 13px 26px -51px rgba(211, 213, 242, 0.75);
+  -moz-box-shadow: -3px 13px 26px -51px rgba(211, 213, 242, 0.75);
+}
+
+.card__id {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.card__title {
+  font-weight: 600;
+}
+
+.card__types {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: 1rem;
+}
+
+.card__types-item {
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.card__types-item.card__types-item--grass {
+  background-color: #c0efa8;
+}
+
+.card__types-item.card__types-item--bug {
+  background-color: #729f3f;
+  color: white;
+}
+
+.card__types-item.card__types-item--fire {
+  background-color: #dc9872;
+}
+
+.card__types-item.card__types-item--rock {
+  background-color: #bbbdcb;
+}
+
+.card__types-item.card__types-item--electric {
+  background-color: #f1d144;
+}
+
+.card__types-item.card__types-item--fighting {
+  background-color: #e76c63;
+  color: white;
+}
+
+.card__types-item.card__types-item--poison {
+  background-color: #c77eb7;
+  color: white;
+}
+
+.card__types-item.card__types-item--water {
+  background-color: #92b4ff;
+  color: white;
+}
+
+.card__types-item.card__types-item--flying {
+  background-color: #3dc7ef;
+}
+
+.card__types-item.card__types-item--fairy {
+  background-color: #fdb9e9;
+}
+
+.card__types-item.card__types-item--psychic {
+  background-color: #f366b9;
+  color: white;
+}
+
+.card__types-item.card__types-item--ice {
+  background-color: #51c4e7;
+  color: white;
+}
+
+.card__types-item.card__types-item--ghost {
+  background-color: #7b62a3;
+  color: white;
+}
+
+.card__types-item.card__types-item--ground {
+  background-color: #ab9842;
+  color: white;
+}
+
+.card__types-item.card__types-item--steel,
+.card__types-item.card__types-item--normal {
+  background-color: #aaa9cd;
+  color: white;
+}

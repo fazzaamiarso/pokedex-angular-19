@@ -1,0 +1,19 @@
+<header class="header">
+  <div class="header__inner">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        @for (navigation of navigations; track navigation) {
+        <li class="header__nav-item">
+          <a
+            class="header__nav-link"
+            [routerLink]="navigation.path"
+            [routerLinkActive]="['active']"
+          >
+            {{ navigation.name }}
+          </a>
+        </li>
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
